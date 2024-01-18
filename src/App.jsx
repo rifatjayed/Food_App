@@ -1,12 +1,13 @@
 
 import './App.css'
+import TopNav from './Components/TopNav'
 
 function App() {
 
 
   return (
     <>
-     <h1>Yes This is Food app Bro</h1>
+     <TopNav></TopNav>
     </>
   )
 }
