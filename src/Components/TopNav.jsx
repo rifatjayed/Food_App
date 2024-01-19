@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose, AiFillTag } from "react-icons/ai";
 
-import { BsFillCartFill } from "react-icons/bs";
+import { BsFillCartFill , BsPerson} from "react-icons/bs";
 
 
 
 const TopNav = () => {
-    const [sideNav, setSideNav]= useState(false)
+    const [sideNav, setSideNav]= useState(true)
     console.log(sideNav)
     return (
         <div className='max-w-[1520] mx-auto flex justify-between items-center p-4'>
@@ -32,7 +32,26 @@ const TopNav = () => {
             Cart
 
             </button>
-            <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0'></div>
+            {
+                sideNav ? (
+                    <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0'></div>
+                ) : (
+                    ""
+                )}
+
+            <div className={sideNav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300'
+            :"fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300"}>
+<AiOutlineClose size={20}  onClick={()=>setSideNav(!sideNav)} className='absolute right-4 top-4 cursor-pointer'></AiOutlineClose>
+<h2 className='text-2xl p-4'>Yum <span className='text-orange-700 font-bold'>Eats</span></h2>
+<nav>
+    <ul className='flex flex-col p-4 text-gray-900'>
+        <li className='text-xl py-4 flex'>
+            <BsPerson></BsPerson>
+        </li>
+    </ul>
+</nav>
+            </div>
+           
         </div>
     );
 };
