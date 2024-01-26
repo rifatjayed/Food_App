@@ -74,7 +74,7 @@ export const topPicks = [
       name: 'cheeseless pizza',
       category: 'pizza',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/cheeseless_pizza_bkuecz.jpg',
+        'https://www.thedailymeal.com/img/gallery/one-of-the-worlds-oldest-pizzas-was-actually-vegan/intro-1673378598.webp',
       price: '$200',
     },
     {
@@ -82,7 +82,7 @@ export const topPicks = [
       name: 'Supreme Pizza',
       category: 'pizza',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324455/NetflixApp/Supreme_Pizza_jtvkj8.jpg',
+        'https://www.thespruceeats.com/thmb/6KB_AVZ3wqCAvvB5DYaU0riIbwg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Pizzasupremehoriz-1ccfa0b1732b4c128427d19ae02a422b.jpg',
       price: '$300',
     },
     {
@@ -90,7 +90,7 @@ export const topPicks = [
       name: 'pepperoni pizza',
       category: 'pizza',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/pepperoni_pizza_axwdat.jpg',
+        'https://www.nordicware.com/wp-content/uploads/2021/05/46400_traditional_pizza_pan_02_e-768x768.jpg',
       price: '$100',
     },
     {
@@ -98,7 +98,7 @@ export const topPicks = [
       name: 'Cheese Pizza',
       category: 'pizza',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/chinese_pizza_kgnbo1.jpg',
+        'https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg',
       price: '$140',
     },
     {
@@ -106,7 +106,7 @@ export const topPicks = [
       name: 'African Salad',
       category: 'Salad',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323870/NetflixApp/African_Salad_s7vgxn.png',
+        'https://www.nordicware.com/wp-content/uploads/2021/05/46400_traditional_pizza_pan_02_e-768x768.jpg',
       price: '$140',
     },
     {
@@ -114,7 +114,7 @@ export const topPicks = [
       name: 'Kale Salad',
       category: 'salad',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323860/NetflixApp/kale_salad_ogune3.jpg',
+        'https://www.dogtownpizza.com/wp-content/uploads/2020/01/picking-slice-of-pepperoni-pizza-picture-id1133727757.jpg',
       price: '$300',
     },
     {
@@ -122,7 +122,7 @@ export const topPicks = [
       name: 'Ceasar Salad',
       category: 'salad',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323859/NetflixApp/caesar-salad-with-tuna-30216-1_noflfd.jpg',
+        'https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-07-Almond-Flour-Pizza-Crust%2FALMOND-FLOUR-PIZZA-CRUST_KitchnKitchn3209-1-',
       price: '$300',
     },
     {
@@ -130,7 +130,7 @@ export const topPicks = [
       name: 'Loaded Salad',
       category: 'salad',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323860/NetflixApp/loaded_salad_qq5jup.jpg',
+        'https://static.wixstatic.com/media/fa075a_dfed848f56794e0eb5fe9592043b449f~mv2.jpg/v1/fill/w_750,h_471,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image-empty-state_edited.jpg',
       price: '$200',
     },
     {
@@ -138,7 +138,7 @@ export const topPicks = [
       name: 'chiken_shawarma',
       category: 'chiken',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323737/NetflixApp/chiken_shawarma_c0ysna.jpg',
+        'https://www.cremeux.in/wp-content/uploads/2023/07/Chicken-Pepperoni-3-copy-1.jpeg',
       price: '$100',
     },
     {
@@ -146,7 +146,7 @@ export const topPicks = [
       name: 'Wings',
       category: 'chicken',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322922/NetflixApp/chicken-wings_lv3zc9.jpg',
+        'https://img.livestrong.com/630x/clsd/getty/44371d4826fc4a119f2b150a8d4f3eee.jpg?type=webp',
       price: '$100',
     },
     {
@@ -154,7 +154,7 @@ export const topPicks = [
       name: 'Roasted Chicken',
       category: 'chicken',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322922/NetflixApp/roast-chicken_nrc6r8.jpg',
+        'https://static.wixstatic.com/media/597497_39dfa709d3d845eeaf43eb692e93b31b~mv2.jpg/v1/fill/w_750,h_472,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image-empty-state.jpg',
       price: '$300',
     },
     {
@@ -162,7 +162,7 @@ export const topPicks = [
       name: 'Chicken Tenders',
       category: 'chicken',
       image:
-        'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322923/NetflixApp/chicken_tenders_quel6y.jpg',
+        'https://againstthegraingourmet.com/cdn/shop/products/Pepperoni_Pizza_Beauty_900x.jpg?v=1658703726',
       price: '$100',
     },
   
