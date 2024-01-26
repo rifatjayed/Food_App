@@ -33,7 +33,7 @@ export const topPicks = [
       id: 6,
       title: 'tilapia fish',
       price: '$900',
-      img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672331305/NetflixApp/tilapia_fish_g0ozkn.jpg'
+      img: 'https://poshjournal.com/wp-content/uploads/2021/01/air-fryer-tilapia-3.jpg'
     },
     {
       id: 7,
@@ -51,7 +51,7 @@ export const topPicks = [
       id: 9,
       title: 'egg and plantain',
       price: '$500',
-      img: 'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672331290/NetflixApp/edd_and_plantain_rey7l4.jpg',
+      img: 'https://steemitimages.com/p/2923mN3pnd7PrxpzPUKQrzvJkcxqbjwN9YsYRHnJq8krWL8rjyVbfNcMeCbmkSEiUFRTXchKbjPv6hCDGudTNsVQ1U4PUEgwhmd1rzsv2SXQmL?format=match&mode=fit&width=640',
     },
     {
       id: 10,

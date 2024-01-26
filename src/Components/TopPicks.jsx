@@ -1,28 +1,40 @@
 import React from 'react';
 import { topPicks } from '../Data/data';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 const TopPicks = () => {
     return (
+
         <div>
             <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Top picks</h1>
-       <div className='hidden lg:flex max-w[152px] m-auto py-2 px-2'>
+            <div className='hidden lg:flex max-w[152px] m-auto py-2 px-2'>
+                <Splide options={{ perPage: 4, gap: "0.5rem", drag: "free", arrows: false }}>
+                    {
+                        topPicks.map((items) => {
+                            return (
+                                <SplideSlide key={items.id}>
+                                    <div className='rouonded-3xl relative'>
 
-        {
-            topPicks.map((items)=>{
-                return(
-                    <div className='rouonded-3xl relative'>
-
-<div className='absolute w-full h-full bg-black/50 rounded-3xl text-white '>
-<p className='px-2'>{items.title}</p>
-</div>
-<img className='h-[200px] w-full' src={items.img} alt="" />
+                                        <div className='absolute w-full h-full bg-black/50 rounded-3xl text-white '>
+                                            <p className='px-2 pt-4 font-bold text-2xl'>{items.title}</p>
+                                            <p className='px-2'>{items.price}</p>
+                                            <button className='border-dotted border-white text-white mx-2 absolute bottom-4'>Add to Cart</button>
+                                        </div>
+                                        <img className='h-[200px] w-full object-cover rounded-3xl cursor-pointer hover:scale-105 ease-out duration-300' src={items.img} alt="" />
 
 
-                    </div>
-                )
-            })
-        }
-       </div>
+                                    </div>
+                                </SplideSlide>
+
+                            )
+                        })
+                    }
+                </Splide>
+
+            </div>
+
+
         </div>
     );
 };
