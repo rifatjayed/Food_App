@@ -175,25 +175,25 @@ export const topPicks = [
         id: 1,
         name: 'Burger',
         image:
-           'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/burger_logo_hmpqua.png'
+           'https://cdn.vectorstock.com/i/1000x1000/11/69/color-with-calligraphic-burger-vector-24551169.webp'
       },
       {
         id: 2,
         name: 'veg',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/veg_logo_jvm4qn.png'
+          'https://cdn.vectorstock.com/i/1000x1000/70/29/veggie-letter-typography-logo-vector-22427029.webp'
       },
       {
         id: 3,
         name: 'Pizza',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/pizza_logo_dqdqds.png',
+          'https://cdn.vectorstock.com/i/1000x1000/97/79/pizza-hand-written-lettering-logo-label-badge-vector-12369779.webp',
       },
       {
         id: 4,
         name: 'Wings',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070208/NetflixApp/wings_logo_hrn8zl.png'
+          'https://www.foodandwine.com/thmb/fiHqa-1R-B51NkKFtxaVblWVwLU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Buffalo-Wings-Recipe-FT-BLOG1222-26e07fdb9aec4afe8d4bc39ea331c753.jpg'
       },
   
       {
@@ -206,42 +206,42 @@ export const topPicks = [
         id: 6,
         name: 'sharwama',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672070207/NetflixApp/sharwama_logo_st4vg8.png'
+          'https://veenaazmanov.com/wp-content/uploads/2016/09/Easy-Shawarma-Chicken-Recipe20.png'
       },
       {
         id: 7,
         name: 'resottoa',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/resotto_logo_uywrr1.png'
+          'https://img-cdn.oliveoiltimes.com/cb:XkPz.23f19/w:auto/h:auto/q:67/ig:avif/f:best/https://www.oliveoiltimes.com/media/2021/05/MG_9093-1.jpg'
       },
       {
         id: 8,
         name: 'cake',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/cake_edpoec.png'
+          'https://upload.wikimedia.org/wikipedia/commons/b/b2/Red_Velvet_Cake_Waldorf_Astoria.jpg'
       },
       {
         id: 9,
-        name: 'chiken',
+        name: 'chicken',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/chiken_logo_ahl2ca.png'
+          'https://www.andy-cooks.com/cdn/shop/articles/20230826032636-andy-20cooks-20-20korean-20fried-20chicken.jpg?v=1693088250&width=1600'
       },
       {
         id: 10,
         name: 'ice cream',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/ice_cream_logo_hcqcaa.png'
+          'https://www.domex-uk.co.uk/wp-content/uploads/2020/08/Keep-ice-cream-scoopable-in-freezer.jpg'
       },
       {
         id: 11,
         name: 'beef',
         image:
-         'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/beef_logo_adnidz.png'
+         'https://www.themeatman.co.uk/cdn/shop/files/rsz_fillet2023.jpg?v=1695740416'
       },
       {
         id: 12,
         name: 'apple pie',
         image:
-          'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672176749/NetflixApp/appple_pie_yxfxpm.png'
+          'https://applewoodfresh.com/wp-content/uploads/2018/12/All-American-Apple-Pie.jpg'
       },
     ];
