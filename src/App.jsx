@@ -3,6 +3,7 @@ import './App.css'
 import Categories from './Components/Categories'
 import Delivery from './Components/Delivery'
 import Featured from './Components/Featured'
+import Footer from './Components/Footer'
 import Meal from './Components/Meal'
 import NewsLetter from './Components/NewsLetter'
 import TopNav from './Components/TopNav'
@@ -20,6 +21,7 @@ function App() {
      <Meal></Meal>
      <Categories></Categories>
      <NewsLetter></NewsLetter>
+     <Footer></Footer>
     </>
   )
 }
